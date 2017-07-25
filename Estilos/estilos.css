@@ -1,0 +1,93 @@
+body{
+	background-image: url(../Imagenes/fondo1.png);
+}
+
+form{
+	padding: 30px 65px;
+    border-bottom: 1px solid #bab3b3;
+}
+.top-input{
+	padding: 0px;
+    background-color: #e9e4e4;
+}
+.ajaxContainer{
+	padding: 40px;
+}
+.ajaxContainer div{
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	float: left;
+	background-color: white;
+    width: 280px;
+    height: 330px;
+    border-radius: 7px;
+    border: 1px solid black;    
+    margin: 15px;
+    padding: 10px;
+    position: relative;
+}
+.ajaxContainer div p{
+	margin-top: 22px;
+    font-size: 0.8rem;
+}
+
+@font-face {
+   font-family: pokemonFont;
+   src: url(../Font/PokemonGB.ttf);
+}
+
+body{
+	font-family: pokemonFont;
+}
+h2{
+	font-size: 1.2rem;
+}
+h3{
+	font-size: 0.8rem;
+}
+#type-selector{
+	width: 125px;
+    float: left;
+    margin-right: 30px;
+}
+
+.steel{
+	background-image: url(../Imagenes/steel.jpg);
+}
+.fire{
+	background-image: url(../Imagenes/fire.jpg);
+}
+.water, .ice{
+	background-image: url(../Imagenes/water.jpg);
+}
+.plant, .poison{
+	background-image: url(../Imagenes/plant.jpg);
+}
+.fight, .rock, .ground{
+	background-image: url(../Imagenes/fight.jpg);
+}
+.normal, .flying{
+	background-image: url(../Imagenes/normal.jpg);
+}
+.psychic{
+	background-image: url(../Imagenes/psychic.jpg);
+}
+.electric{
+	background-image: url(../Imagenes/electric.jpg);
+}
+.dark{
+	background-image: url(../Imagenes/dark.jpg);
+}
+.fairy{
+	background-image: url(../Imagenes/fairy.jpg);
+}
+.dragon{
+	background-image: url(../Imagenes/dragon.jpg);
+}
+
+.pokemonImg{
+    position: absolute;
+    top: 194px;
+    left: 29px;
+}
