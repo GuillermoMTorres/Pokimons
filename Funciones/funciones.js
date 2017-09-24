@@ -124,12 +124,14 @@ function generaIcono(){
 //         dándole la url como parámetro
 function generaCarta(url){
 
+    console.log("xd " + url);
+
   var test = "" + url
   if (url == "[object Object]"){
     url = 'http://pokeapi.co/api/v2/pokemon/'+ $('#inputId').val() +'/';
   }
   //Genera la ID recortando la URL del parámetro
-  var id = url.substring(33, url.indexOf("/" , 33 ));
+  var id = url.substring(34, url.indexOf("/" , 34 ));
 
   $.get(url, function( data ) {
 
